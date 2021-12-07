@@ -17,6 +17,22 @@ const HomeScreen = ({ navigation }) => {
         title="Go To Image Demo"
         onPress={() => navigation.navigate('Image')}
       />
+      <Button
+        title="Go To Count Demo"
+        onPress={() => navigation.navigate('Count')}
+      />
+      <Button
+        title="Go To Color Demo"
+        onPress={() => navigation.navigate('Color')}
+      />
+      <Button
+        title="Go To Square Demo"
+        onPress={() => navigation.navigate('Square')}
+      />
+      <Button
+        title="Go To Text Demo"
+        onPress={() => navigation.navigate('Text')}
+      />
     </View>
   );
 };
