@@ -15,23 +15,20 @@ const styles = StyleSheet.create({
   viewStyle: {
     borderWidth: 3,
     borderColor: 'black',
-    flexDirection: 'row', // column, row
-    justifyContent: 'space-between' // flex-start, flex-end, center, space-between, space-around
+    alignItems: 'center'
   },
   textOneStyle: {
     borderWidth: 1,
     borderColor: 'red',
-    flex: 4
   },
   textTwoStyle: {
     borderWidth: 1,
     borderColor: 'red',
-    flex: 4
+    alignSelf: 'stretch' // only apply textTwoStyle
   },
   textThreeStyle: {
     borderWidth: 1,
     borderColor: 'red',
-    flex: 2
   },
 });
 
