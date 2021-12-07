@@ -1,7 +1,7 @@
 # List screen
 
 ## FlatList
-```
+```javascript
 <FlatList
     horizontal
     showsHorizontalScrollIndicator={false}
