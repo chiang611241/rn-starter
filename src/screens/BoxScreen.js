@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
   textTwoStyle: {
     borderWidth: 1,
     borderColor: 'red',
-    alignSelf: 'stretch' // only apply textTwoStyle
+    ...StyleSheet.absoluteFillObject // like position: 'absolute' and top: 0, left: 0 ...
   },
   textThreeStyle: {
     borderWidth: 1,
